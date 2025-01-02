@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.product_api"
-    compileSdk = 34
+    namespace = "com.fanntt.crud_berita_user"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.product_api"
+        applicationId = "com.fanntt.crud_berita_user"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -36,10 +36,13 @@ android {
 }
 
 dependencies {
+
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     implementation("com.github.bumptech.glide:glide:4.16.0")
+
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

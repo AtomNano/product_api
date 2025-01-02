@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "product_api"
+rootProject.name = "crud_berita_user"
 include(":app")
  
